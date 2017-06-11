@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CTCI5thEditionStringQuestions/src/CTCI_Chapter1Question3.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="CTCI_Chapter1Question3"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CTCI5thEditionStringQuestions"/>
+</launchConfiguration>
