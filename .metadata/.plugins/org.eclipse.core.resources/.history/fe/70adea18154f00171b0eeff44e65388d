@@ -1,0 +1,22 @@
+
+public class CTCI_Chapter1Question6 {
+/*
+ * Given an image rep. by a NxN matrix where each pixel in the image is a byte representation
+ * write a method to rotate the image by 90 degrees
+ */
+	public static void main(String args[]){
+		int [] pixelRepresentation = new int[4];
+		int n = 3;
+		int [][] matrixRepresentation = new int[n][n];
+		
+	}
+}
+class pixel {
+	static byte[] _pixelArray ;
+	public pixel(byte [] _pixelArray){
+		this._pixelArray = _pixelArray;
+	}
+	public static byte[] getArrayRepresentation(){
+		return _pixelArray;
+	}
+}
