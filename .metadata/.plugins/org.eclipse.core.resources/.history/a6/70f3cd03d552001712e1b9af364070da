@@ -1,0 +1,26 @@
+
+public class ReverseInteger {
+	/*
+	 * Reverse digits of an integer.
+	 * Example1: x = 123, return 321
+	 * Example2: x = -123, return -321
+	 */
+	public static void main(String args[]){
+	}
+    public static int reverse(int x) {
+        if(Math.abs(2143997412)<x){
+        	return 0;
+        }
+        String intStr = Integer.toString(x);
+        char [] c = new char[intStr.length()];
+        for(int i =0; i<intStr.length()/2;i++){
+        	char temp = intStr.charAt(i);
+        	c[i] = intStr.charAt(intStr.length()-1-i);
+        	c[intStr.length()-1-i]=temp;
+        }
+        if(intStr.length()%2!=0){
+        	c[intStr.length()/2+1]=intStr.charAt(intStr.length()/2+1);
+        }
+        Integer.parseInt(new String(c));
+    }
+}
