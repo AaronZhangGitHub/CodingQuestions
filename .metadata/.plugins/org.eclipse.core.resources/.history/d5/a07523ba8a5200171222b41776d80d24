@@ -1,0 +1,39 @@
+import java.util.HashMap;
+
+public class TwoSum {
+	/*
+	 * Given an array of integers, return indices of the two numbers such that
+	 * they add up to a specific target. You may assume that each input would
+	 * have exactly one solution, and you may not use the same element twice.
+	 * https://leetcode.com/problems/two-sum/#/description
+	 */
+	public static void main(String args[]){
+		int [] input = {2, 7, 11, 15};
+		System.out.println(twoSum(input, 9));
+		HashMap<Integer, Integer> hm = new HashMap<Integer,Integer>();
+		hm.put(2, 0);
+		System.out.println(hm.containsKey(2));
+	}
+    public static int[] twoSum(int[] nums, int target) {
+        for(int i =0; i <nums.length;i++){
+            if(nums[i]>target){
+                //ignore
+            }else{
+                HashMap<Integer, Integer> hm = new HashMap<Integer,Integer>();
+                int difference = target-nums[i];
+                System.out.println(difference);
+                System.out.println(hm.containsKey(difference));
+                if(hm.containsKey(difference)){
+                    int index = hm.get(difference);
+                    System.out.println(index +" "+i);
+                    int[] result = {index, i};
+                    return result;
+                }else{
+                	System.out.println(nums[i]+" "+i);
+                	hm.put(nums[i], i);
+                }
+            } 
+        }
+        return null;
+    }
+}

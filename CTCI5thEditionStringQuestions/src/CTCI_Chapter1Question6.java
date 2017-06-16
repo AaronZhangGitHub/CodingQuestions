@@ -19,17 +19,17 @@ public class CTCI_Chapter1Question6 {
 	}
 	public void rotateMatrix90Deg(Pixel [][] matrixRep){
 		int x = 0;
-		for(int i = 0;i<matrixRep.length;i++){
-			//send left to top
-			Pixel temp = matrixRep[i][0];
-			matrixRep[i][x] = matrixRep[i][matrixRep.length-1];
-			
-			//send top to right
-			
-			//send right to bottom
-			//send bottom to left
-			//send left to top
-			x++;
+		for(int i = 0;i<matrixRep.length/2;i++){
+			for(int j = 0;j<matrixRep.length;j++){
+				Pixel temp = matrixRep[matrixRep.length-1][x];
+				matrixRep[matrixRep.length-1][x] = matrixRep[i][x];
+				//send top to right
+				//send right to bottom
+				matrixRep[matrixRep.length-1][(x+3)%3] = temp; 
+				//send bottom to left
+				//send left to top
+				x++;
+			}
 		}
 		
 	}
