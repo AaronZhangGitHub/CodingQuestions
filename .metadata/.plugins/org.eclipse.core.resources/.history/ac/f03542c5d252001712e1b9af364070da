@@ -1,0 +1,14 @@
+
+public class ReverseInteger {
+	/*
+	 * Reverse digits of an integer.
+	 * Example1: x = 123, return 321
+	 * Example2: x = -123, return -321
+	 */
+    public static int reverse(int x) {
+        if(Math.abs(2143997412)<x){
+        	
+        }
+        return 0;
+    }
+}
