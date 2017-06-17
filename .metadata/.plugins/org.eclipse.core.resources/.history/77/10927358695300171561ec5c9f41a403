@@ -1,0 +1,14 @@
+
+public class PalindromeInt {
+/*
+ * Determine whether an integer is a palindrome. Do this without extra space.
+ * https://leetcode.com/problems/palindrome-number/#/description
+ */
+    public boolean isPalindrome(int x) {
+        int reversedNum = reverseInteger(x);
+        return ((x-reversedNum)==0)?true:false;
+    }
+    public int reverseInteger(int x){
+    	
+    }
+}

@@ -1,0 +1,25 @@
+
+public class PalindromeInt {
+	/*
+	 * Determine whether an integer is a palindrome. Do this without extra
+	 * space. https://leetcode.com/problems/palindrome-number/#/description
+	 */
+	public static void main(String args[]){
+		System.out.println(isPalindrome);
+	}
+	public static boolean isPalindrome(int x) {
+		int reversedNum = reverseInteger(x);
+		return ((x - reversedNum) == 0) ? true : false;
+	}
+
+	public static int reverseInteger(int x) {
+		int total = 0;
+		while (x != 0) {
+			total += x % 10;
+			total *= 10;
+			x -= x % 10;
+			x /= 10;
+		}
+		return total /= 10;
+	}
+}
