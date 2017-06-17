@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ReverseInteger.java</name>
+			<type>1</type>
+			<location>/Users/AaronZhang/Documents/CodingQuestions/LeetCode_Easy/src/ReverseInteger.java</location>
+		</link>
+	</linkedResources>
 </projectDescription>

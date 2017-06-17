@@ -6,24 +6,21 @@ public class ReverseInteger {
 	 * Example2: x = -123, return -321
 	 */
 	public static void main(String args[]){
-		System.out.println(2143997412>2147483648);
-		System.out.println(reverse(-2147483648));
-		
+		System.out.println(reverse(-155)); //testing purposes
 	}
     public static int reverse(int x) {
-    	boolean negativeInteger = false;
-        if(Math.abs(x)>2143997412 || x>Math.abs(1000000002)){
-        	return 0;
-        }else if(x<0){
-        	negativeInteger = true;
-        	x*=-1;
-        }
-        String intStr = Integer.toString(x);
-        StringBuffer sb = new StringBuffer();
-        for(int i =intStr.length()-1;i>=0;i--){
-        	sb.append(intStr.charAt(i));
-        }
-        int result = Integer.parseInt(sb.toString());
-        return (negativeInteger)? result*=-1:result;
+    	long result = 0;
+    	while(x!=0){
+	    	int temp = x%10;
+	    	result+=temp;
+	    	x-=temp;
+	    	x/=10;
+	    	result*=10;
+    	}
+    	result/=10;
+    	if(result>Integer.MAX_VALUE||result<Integer.MIN_VALUE){
+    		return 0;
+    	}
+    	return (int)result;
     }
 }
