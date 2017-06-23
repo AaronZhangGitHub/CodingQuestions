@@ -5,8 +5,8 @@ public class PalindromeInt {
 	 * space. https://leetcode.com/problems/palindrome-number/#/description
 	 */
 	public static void main(String args[]){
-		System.out.println(isPalindrome(1000000001)); //testing purposes
-		System.out.println(reverseInteger(1000000001));
+		///System.out.println(isPalindrome(1000000001)); //testing purposes
+		//System.out.println(reverseInteger(1000000001));
 	}
 	public static boolean isPalindrome(int x) {
 		if(x<0){

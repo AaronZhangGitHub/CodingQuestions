@@ -6,7 +6,7 @@ public class ReverseInteger {
 	 * Example2: x = -123, return -321
 	 */
 	public static void main(String args[]){
-		System.out.println(reverse(-155)); //testing purposes
+		//System.out.println(reverse(-155)); //testing purposes
 	}
     public static int reverse(int x) {
     	long result = 0;
