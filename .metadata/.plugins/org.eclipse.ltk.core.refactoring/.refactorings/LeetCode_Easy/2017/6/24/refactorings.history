@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;hm&apos; in &apos;TwoSum.twoSum(...)&apos; to &apos;indexToInt&apos;&#x0A;- Original project: &apos;LeetCode_Easy&apos;&#x0A;- Original element: &apos;TwoSum.twoSum(int[], int).hm&apos;&#x0A;- Renamed element: &apos;hm&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;hm&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TwoSum.java[TwoSum~twoSum~\[I~I@hm!519!580!545!546!QHashMap\&lt;QInteger;QInteger;&gt;;!0!false" name="indexToInt" references="true" stamp="1497614143655" version="1.0"/>
-</session>
