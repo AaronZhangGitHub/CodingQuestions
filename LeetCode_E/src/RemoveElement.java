@@ -12,4 +12,19 @@ Given input array nums = [3,2,2,3], val = 3
 
 Your function should return length = 2, with the first two elements of nums being 2.
      */
+    public static void main (String args[]){
+        int [] arr = {3, 2, 2, 3};
+        removeElement(arr, 3);
+    }
+    public static int removeElement(int input [],int value){
+        int temp = 0;
+        for(int i=0;i<input.length;i++){
+            if(input[i]!=value){
+                //perform a swap with next value
+                input[temp] = input[i];
+                temp++;
+            }
+        }
+        return temp;
+    }
 }
