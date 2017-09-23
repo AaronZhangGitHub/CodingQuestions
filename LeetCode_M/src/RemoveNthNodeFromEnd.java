@@ -25,11 +25,10 @@ Try to do this in one pass.
             return null;
         }
         //{1,2}, 2
-        ListNode pointer1 = new ListNode(0);
-        ListNode pointer2 = new ListNode(0);
-        pointer1.next = head;
-        pointer2.next = head;
-        ListNode newHeadReference = pointer2;
+        ListNode newHeadReference = new ListNode(0);
+        newHeadReference.next = head;
+        ListNode pointer1 = newHeadReference;
+        ListNode pointer2 = newHeadReference;
         for (int i = 0; i < n; i++) {
             //iterate pointer 1
             pointer1 = pointer1.next;
