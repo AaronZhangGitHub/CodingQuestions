@@ -11,8 +11,41 @@ For example,
 Note:
 Given n will always be valid.
 Try to do this in one pass.
-     */
-   // public ListNode removeNthFromEnd(ListNode head, int n) {
-
-   // }
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        //given n is always valid
+        if(head==null || head.next==null){
+            return null;
+        }
+        //{1,2}, 2
+        ListNode pointer1 = new ListNode(0);
+        ListNode pointer2 = new ListNode(0);
+        pointer1.next = head;
+        pointer2.next = head;
+        ListNode newHeadReference = pointer2;
+        for (int i = 0; i < n; i++) {
+            //iterate pointer 1
+            pointer1 = pointer1.next;
+        }
+        //0p2->1->2p1
+        while (pointer1.next != null) {
+            pointer1 = pointer1.next;
+            pointer2 = pointer2.next;
+        }
+        //next node from pointer 2 is the node to remove
+        pointer2.next = pointer2.next.next;
+        return newHeadReference.next;
+    }
 }
+class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
