@@ -7,14 +7,33 @@ public class ValidParenthesis {
 
 The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
      */
-    Stack<Character> s = new Stack<Character>();
     public boolean isValid(String s) {
-        if(s.length()%2!=0){return false;}
-        for(char c: s.toCharArray()){
-            switch(c){
-                case '{':
-                    s.push(c);
+        //"[])"
+        if(s.length()==1||s.length()==0||s==null){
+            return false;
+        }
+        Stack<Character> stackValidString = new Stack<Character>();
+        for(char c:s.toCharArray()){
+            if(c=='('||c=='{'||c=='['){
+                stackValidString.push(c);
+                //[
+            }else if(!stackValidString.empty()){
+                char compareChar = stackValidString.pop();
+                if(compareChar=='(' && c!=')'){
+                    return false;
+                }else if(compareChar=='{' && c!='}'){
+                    return false;
+                }else if(compareChar=='[' && c!=']'){
+                    return false;
+                }
+            }else{
+                return false;
             }
+        }
+        if(stackValidString.empty()){
+            return true;
+        }else{
+            return false;
         }
     }
 }
