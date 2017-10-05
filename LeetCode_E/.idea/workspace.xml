@@ -54,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -103,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/RemoveNodesSortedLL.java" />
         <option value="$PROJECT_DIR$/src/SearchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/src/MaxSubArray.java" />
       </list>
     </option>
   </component>
@@ -135,8 +146,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +168,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,11 +292,12 @@
       <workItem from="1507008556890" duration="36000" />
       <workItem from="1507131721954" duration="34000" />
       <workItem from="1507244540338" duration="32000" />
+      <workItem from="1507246527490" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6190000" />
+    <option name="totallyTimeSpent" value="6217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -559,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RemoveNodeLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -599,10 +603,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveNodeLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
           <folding />
         </state>
       </provider>
