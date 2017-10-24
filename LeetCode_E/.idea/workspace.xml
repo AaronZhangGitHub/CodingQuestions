@@ -110,8 +110,8 @@
       <file leaf-file-name="PathSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -345,12 +345,12 @@
       <workItem from="1507571285971" duration="431000" />
       <workItem from="1508795979108" duration="32000" />
       <workItem from="1508809302047" duration="548000" />
-      <workItem from="1508822769223" duration="688000" />
+      <workItem from="1508822769223" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8586000" />
+    <option name="totallyTimeSpent" value="8982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -797,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
