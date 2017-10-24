@@ -98,11 +98,8 @@
         <entry file="file://$PROJECT_DIR$/src/AddDigits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              <folding>
-                <element signature="e#59#60#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-              </folding>
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -340,12 +337,12 @@
       <workItem from="1507564200776" duration="395000" />
       <workItem from="1507571285971" duration="431000" />
       <workItem from="1508795979108" duration="32000" />
-      <workItem from="1508809302047" duration="94000" />
+      <workItem from="1508809302047" duration="183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7444000" />
+    <option name="totallyTimeSpent" value="7533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -790,11 +787,8 @@
     <entry file="file://$PROJECT_DIR$/src/AddDigits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <element signature="e#59#60#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
