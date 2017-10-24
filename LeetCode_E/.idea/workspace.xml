@@ -24,16 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveNodesSortedLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RemoveNodesSortedLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="83" lean-forward="false" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddDigits.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddDigits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindPeakElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FindPeakElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/MaxDepthBTree.java" />
         <option value="$PROJECT_DIR$/src/ValidPalin.java" />
         <option value="$PROJECT_DIR$/src/AddDigits.java" />
+        <option value="$PROJECT_DIR$/src/FindPeakElement.java" />
       </list>
     </option>
   </component>
@@ -337,12 +338,12 @@
       <workItem from="1507564200776" duration="395000" />
       <workItem from="1507571285971" duration="431000" />
       <workItem from="1508795979108" duration="32000" />
-      <workItem from="1508809302047" duration="183000" />
+      <workItem from="1508809302047" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7533000" />
+    <option name="totallyTimeSpent" value="7848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -388,14 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveNodeLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -788,6 +781,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindPeakElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
