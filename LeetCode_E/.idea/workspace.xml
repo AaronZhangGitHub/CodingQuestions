@@ -24,16 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,12 +94,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalancedBTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BalancedBTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BalancedBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="69" lean-forward="false" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ValidateBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/AddDigits.java" />
         <option value="$PROJECT_DIR$/src/FindPeakElement.java" />
         <option value="$PROJECT_DIR$/src/BalancedBTree.java" />
+        <option value="$PROJECT_DIR$/src/ValidateBST.java" />
       </list>
     </option>
   </component>
@@ -340,12 +344,12 @@
       <workItem from="1507571285971" duration="431000" />
       <workItem from="1508795979108" duration="32000" />
       <workItem from="1508809302047" duration="548000" />
-      <workItem from="1508822769223" duration="47000" />
+      <workItem from="1508822769223" duration="287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7945000" />
+    <option name="totallyTimeSpent" value="8185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -391,14 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LengthOfLastWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -789,9 +785,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BalancedBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="69" lean-forward="false" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidateBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
